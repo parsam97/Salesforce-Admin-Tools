@@ -1,8 +1,24 @@
 {
-  "orgName": "Demo company",
+  "orgName": "admin tools",
   "edition": "Developer",
-  "features": ["EnableSetPasswordInApi"],
+  "language": "en_US",
+  "country": "DE",
+  "features": [
+    "API",
+    "AuthorApex",
+    "DebugApex",
+    "EnableSetPasswordInApi"
+  ],
+  "hasSampleData": true,
   "settings": {
+    "chatterSettings": {
+      "enableFeedEdit": true,
+      "enableFeedsRichText": true,
+      "enableChatter": true
+    },
+    "languageSettings": {
+      "enableTranslationWorkbench": true
+    },
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
     },
