@@ -1,12 +1,33 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
-    }
-  ],
   "name": "Salesforce-Admin-Tools",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "59.0"
+  "sourceApiVersion": "59.0",
+  "packageDirectories": [
+    {
+      "path": "admin-tools",
+      "default": true,
+      "definitionFile": "config/scratch-org-def.json",
+      "dependencies": [
+        {
+          "package": "FlowScreenComponentsBasePack - 3.6.6.0"
+        },
+        {
+          "package": "FlowActionsBasePack - 3.18.0.0"
+        },
+        {
+          "package": "ReactiveCollectionProcessors - 1.0.2.0"
+        },
+        {
+          "package": "CollectionActionsL - 3.3.6.0"
+        }
+      ]
+    }
+  ],
+  "packageAliases": {
+    "FlowScreenComponentsBasePack@3.6.6.0": "04t5G000004fz9OQAQ",
+    "FlowActionsBasePack@3.18.0.0": "04t8b000001ZxNVAA0",
+    "ReactiveCollectionProcessors@1.0.2.0": "04t5G000004XZiwQAG",
+    "CollectionActionsL@3.3.6.0": "04t5G000004XZksQAG"
+  }
 }
